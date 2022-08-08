@@ -13,10 +13,80 @@
    
     <div class="project">
     <!-- left-bar ------------------------------>
-    <div class="left-bar">
-        <div class="left-bar__logo">            
-        </div>
-        <h1 class="left-bar__subtitle">Romsem </h1>
+    <div class = 'left_sidebar'>
+        <figure class = 'left_sidebar_logo'>
+            <div class = 'left_sidebar_logo_image'>
+                <img src = '../img/left_sidebar/logo.png'>  
+                <figcaption><span>ROMSEM</span></figcaption>  
+            </div> 
+        </figure>
+            <div class="logo__border"></div>
+            <!-- <hr> -->
+
+            <!-- nav --------------------------->
+            <div class = 'left_sidebar_menu'>
+                <ul class='left_sidebar_menu_list'>
+                    <li>
+                        <img src = '../img/left_sidebar/pizza.png'>
+                        <span class = 'left_sidebar_menu_text'>Пицца</span>
+                        <span class = 'left_sidebar_menu_soon hide'>СКОРО</span>
+                    </li>
+                    <li >
+                        <img src = '../img/left_sidebar/sets.png'>
+                        <span class = 'left_sidebar_menu_text'>Сеты</span>
+                        <span class = 'left_sidebar_menu_soon hide'>СКОРО</span>
+                    </li>
+                </ul>
+                    <li >
+                        <img src = '../img/left_sidebar/wok.png'>
+                        <span class = 'left_sidebar_menu_text'>WOK</span>
+                        <span class = 'left_sidebar_menu_soon hide'>СКОРО</span>
+                    </li>
+                </ul>
+                    <li >
+                        <img src = '../img/left_sidebar/rolls.png'>
+                        <span class = 'left_sidebar_menu_text'>Роллы</span>
+                        <span class = 'left_sidebar_menu_soon hide'>СКОРО</span>
+                    </li>
+                </ul>
+                    <li >
+                        <img src = '../img/left_sidebar/sushi.png'>
+                        <span class = 'left_sidebar_menu_text'>Суши</span>
+                        <span class = 'left_sidebar_menu_soon hide'>СКОРО</span>
+                    </li>
+                </ul>
+                    <li >
+                        <img src = '../img/left_sidebar/salats.png'>
+                        <span class = 'left_sidebar_menu_text'>Салаты</span>
+                        <span class = 'left_sidebar_menu_soon'>СКОРО</span>
+                    </li>
+                </ul>
+                    <li >
+                        <img src = '../img/left_sidebar/soup.png'>
+                        <span class = 'left_sidebar_menu_text'>Супы</span>
+                        <span class = 'left_sidebar_menu_soon '>СКОРО</span>
+                    </li>
+                </ul>
+                    <li >
+                        <img src = '../img/left_sidebar/corndogs.png'>
+                        <span class = 'left_sidebar_menu_text'>Корн доги</span>
+                        <span class = 'left_sidebar_menu_soon hide'>СКОРО</span>
+                    </li>
+                </ul>
+                    <li >
+                        <img src = '../img/left_sidebar/drink.png'>
+                        <span class = 'left_sidebar_menu_text'>Напитки</span>
+                        <span class = 'left_sidebar_menu_soon hide'>СКОРО</span>
+                    </li>
+                </ul>
+                    <li >
+                        <img src = '../img/left_sidebar/actions.png'>
+                        <span class = 'left_sidebar_menu_text'>Акций</span>
+                    </li>
+                </ul>
+
+            </div>
+
     </div>
     <!-- main ----------------------------------->
     <div class="main">
@@ -36,8 +106,27 @@
                 </div>
 
                 <div class="header__wrap-content">
-                    <div class="header__comment"><a href="#">Отзывы</a></div>
-                    <div class="header__render"><a href="#" aria-haspopup="true">Доставка и оплата</a></div>
+                    <!-- <div class="header__comment"><a href="#">Отзывы</a></div>
+                    <div class="header__render"><a href="#" aria-haspopup="true">Доставка и оплата</a></div>                -->
+                    <button class="header__comment">Отзывы</button>
+                    <div class="dropdown">
+                        
+                        <button class="dropbtn">Доставка и оплата</button>
+
+                        <div class="dropdown-content">
+
+                          <a href="#" class="sorting">Сортировка</a>
+                          <a href="#" class="dropdown-content_border">По умолчанию <img src="./img/Vector 4.png" alt=""></a>
+                          
+                          <a href="#">По умолчанию</a>
+
+                          <a href="#">Название</a>
+                          <a href="#">Сначала дешевле</a>
+                          <a href="#">Сначала дороже</a>
+                          <a href="#">Количество кусочков</a>
+                          <a href="#">Вес</a>
+                        </div>
+                                        
                     <!-- <ul>
                         <li class="header__comment"><a href="#">Отзывы</a></li>
                         <li class="header__render"><a href="#" aria-haspopup="true">Доставка и оплата</a></li>
@@ -53,9 +142,10 @@
                             </ul>                                
                     </ul> -->
                                                     
+                        
+                     </div>  
                     <div class="fas fa-search fa-2x "></div>     
-                      
-                </div>
+                 </div> 
             </div>
         </header>
         <!-- btn__slider ------------------------------------------->
