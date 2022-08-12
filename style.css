@@ -306,7 +306,7 @@ font-size: larger;
 
 .main-content{
     width: 950px; /*950px*/
-    height: 470px;
+    /* height: 470px; */
 
     margin: auto;
     display: flex;
@@ -335,37 +335,28 @@ font-size: larger;
 
 /* section =============================*/
 
-section{ /*Оптимизировать*/
-    display: flex;
-    flex-wrap: wrap;
-        
-    width: 950px;
-    height: 470px;
-
+.main__section{ /*Оптимизировать*/
+    width: 950px; 
+    height: 430px;
+    display: flex; 
+    justify-content: space-between;
+    align-content: space-between; 
+    flex-wrap: wrap;  
+    line-height: 0;  
     margin: 31px 0 24px 0;
 
 }
-article{
-    position: relative;
+article{        
+    position: relative;     
+    
+}
+.section__two{
+    width: 470px;
+    display: flex;
+    justify-content: space-between;
+}
+.cursor{
     cursor: pointer;
-    
-}
-article:first-child{
-    margin-left: 0;
-    margin-bottom:30px ;
-    
-}
-article:nth-child(2){
-    margin-left: 30px;
-
-}
-article:nth-child(3){
-    margin-left: 20px;
-
-}
-article:nth-child(5){
-    margin-left: 30px;
-
 }
 .text{
     font-style: normal;
@@ -375,15 +366,21 @@ article:nth-child(5){
     color: #FFFFFF;
 
     position: absolute;
-    left: 10px;
+    left: 10px; 
     top: 160px;
+} 
+.two__text{
+position: relative;
 }
+
+/*offer================================*/
 .offer{    
     width: 100%;
     font-weight: 500;
     font-size: 24px;
     line-height: 30px;
 }
+
 .offer span{
     cursor: pointer;
 }
