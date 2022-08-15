@@ -36,17 +36,59 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
-body{
-    font-family: 'Arial', sans-serif;
-    
+@import url("./fonts/dinpro/stylesheet.css");
+@import url("./fonts/nexa/stylesheet.css"); 
+
+ /* @font-face {
+    font-family: "dinpro";
+    src: url("./fonts/dinpro/stylesheet.css");
+}  */
+/* @font-face {
+    font-family: 'DIN Pro';
+    src: url('DINPro-Medium.eot');
+    src: local('DIN Pro Medium'), local('DINPro-Medium'),
+        url('DINPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('DINPro-Medium.woff2') format('woff2'),
+        url('DINPro-Medium.woff') format('woff'),
+        url('DINPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+} */
+/* @font-face {
+    font-family: 'DIN Pro';
+    src: url('DINPro-Bold.eot');
+    src: local('DIN Pro Bold'), local('DINPro-Bold'),
+        url('DINPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('DINPro-Bold.woff2') format('woff2'),
+        url('DINPro-Bold.woff') format('woff'),
+        url('DINPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
 }
+
+@font-face {
+    font-family: 'DIN Pro';
+    src: url('DINPro.eot');
+    src: local('DIN Pro'), local('DINPro'),
+        url('DINPro.eot?#iefix') format('embedded-opentype'),
+        url('DINPro.woff2') format('woff2'),
+        url('DINPro.woff') format('woff'),
+        url('DINPro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+ body{
+    font-family:'Arial', sans-serif;
+    
+} 
+
  * {
      box-sizing: border-box;
      
 }
  
-@import url("./fonts/dinpro/stylesheet.css");
-@import url("./fonts/nexa/stylesheet.css");
+
 
 .project{
     max-width: 1930px;/*вернуть 1920*/
@@ -307,7 +349,7 @@ font-size: larger;
 .main-content{
     width: 950px; /*950px*/
     /* height: 470px; */
-
+    position: relative; /*проверить как работает*/
     margin: auto;
     display: flex;
     flex-direction: column; 
@@ -398,6 +440,7 @@ position: relative;
     justify-content: space-between;
     
 }
+
 .product__box{
     width: 289px;
     height: 397px;    
@@ -408,7 +451,7 @@ position: relative;
     padding: 0 18px; 
 }
 .product__titl{
-    font-style: normal;
+    /* font-style: normal; */
     font-weight: 500;
     font-size: 24px;
     line-height: 30px;
@@ -416,8 +459,16 @@ position: relative;
     padding-left: 17px; /* Проверить отступы по ленейке*/
     
 }
+.product__titl-one{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 46px 0 14px 0; /* Проверить отступы по ленейке*/
+    padding-left: 17px;
+}
+
 .product__description{
-    padding: 30px 0 0 17px;/* Проверить отступы по ленейке*/
+    padding: 0 0 0 17px;/* Проверить отступы по ленейке*/
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -427,12 +478,14 @@ position: relative;
     color: #A4ACAD;
 
 }
+
 .product__wrap{
     width: 100%;
     border-top: 0.5px solid #A4ACAD;
     margin-top: 20px; /* Проверить отступы по ленейке*/
     
 }
+
 .product__price{
     font-style: normal;
     font-weight: 700;
