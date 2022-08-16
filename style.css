@@ -263,6 +263,7 @@ font-size: larger;
      
 }
 /* Выпадающее меню ==========================*/
+/*сделать cursor pointer для каждого эллемента а не на блок */
 .dropbtn {  
     font-style: normal;
     font-weight: 400;
@@ -521,7 +522,7 @@ position: relative;
 
 .btn__slider-right{
     /* left: 1062px;
-    position: absolute;     */
+    position: absolute;*/
     
 }
 
