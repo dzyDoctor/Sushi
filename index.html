@@ -88,8 +88,6 @@
             </div>
 
     </div>
-    <!-- end-left-bar ------------------------------>
-
     <!-- main ----------------------------------->
     <div class="main">
     <!-- header ----------------------------->
@@ -107,7 +105,9 @@
                     <p class="city">Бишкек</p>
                 </div>
 
-                <div class="header__wrap-content">                   
+                <div class="header__wrap-content">
+                    <!-- <div class="header__comment"><a href="#">Отзывы</a></div>
+                    <div class="header__render"><a href="#" aria-haspopup="true">Доставка и оплата</a></div>                -->
                     <button class="header__comment">Отзывы</button>
                     <div class="dropdown">
                         
@@ -125,8 +125,24 @@
                           <a href="#">Сначала дороже</a>
                           <a href="#">Количество кусочков</a>
                           <a href="#">Вес</a>
-                        </div>                             
-                                 
+                        </div>
+                                        
+                    <!-- <ul>
+                        <li class="header__comment"><a href="#">Отзывы</a></li>
+                        <li class="header__render"><a href="#" aria-haspopup="true">Доставка и оплата</a></li>
+                            <ul class="dropdown" aria-label="submenu">
+                                <li><a href="#"class="sorting" >Сортировка</a></li>
+                                <li><a href="#">По умолчанию</a></li>
+                                <li><a href="#">По умолчанию</a></li>
+                                <li><a href="#">Название</a></li>
+                                <li><a href="#">Сначала дешевле</a></li>
+                                <li><a href="#">Сначала дороже</a></li>
+                                <li><a href="#">Количество кусочков</a></li>
+                                <li><a href="#">Вес</a></li>
+                            </ul>                                
+                    </ul> -->
+                                                    
+                        
                      </div>  
                     <div class="fas fa-search fa-2x "></div>     
                  </div> 
@@ -134,10 +150,14 @@
         </header>
         <!-- btn__slider ------------------------------------------->
         <div class="btn__slider">
-            <button class="btn__slider-left"><img src="./img/Left.png" alt=""></button>                
-            <button class="btn__slider-right"><img src="./img/right.png" alt=""> </button>
+                <button class="btn__slider-left">  
+                    <img src="./img/Left.png" alt="">
+                 
+                </button> 
+         
+            <button class="btn__slider-right"> <img src="./img/right.png" alt=""> </button>
         </div>
-    <!-- main-content ------------------------>
+    <!-- main-content ----------------------->
     <div class="main-content">
         <div class="main-banner">
             <img src="./img/banner.png" alt=""> 
@@ -150,38 +170,29 @@
             <div class="dot"></div>
             <div class="dot"></div>
             <div class="dot"></div>
-        </div>
+    </div>
     <!-- section ---------------------------------->
-     <section class="main__section" > <!--сделать класс -->
-        
-        <article class="cursor"> <!--переделать все в отдельные болки и сделать классы -->
+     <section > <!--сделать класс -->
+         <article > <!--переделать все в отдельные болки и сделать классы -->
             <img src="./img/С лососем.png" alt="" left='0'> 
             <p class="text">Чикен</p>
         </article>
-
-        <article class="section__two ">
-            <div class="two__text cursor">
-                <img src="./img/С угрем.png" alt=""> 
-                <p class="text">С угрем</p>
-            </div> 
-
-            <div class="two__text cursor" >
-                <img src="./img/Без мяса.png" alt="">
-                <p class="text">Корн дог</p>   
-            </div>
-            
+        <article>
+            <img src="./img/С угрем.png" alt=""> 
+            <p class="text">С угрем</p>  
         </article>
-      
-         <article class="cursor">
+        <article>
+            <img src="./img/Без мяса.png" alt="">
+            <p class="text">Корн дог</p> 
+        </article>
+        <article>
             <img src="./img/С филадельфией.png" alt="">
             <p class="text">Пицца</p> 
-        </article> 
-
-        <article class="cursor">
+        </article>
+        <article>
             <img src="./img/Акции.png" alt="">
             <p class="text">Акции</p> 
-        </article> 
-
+        </article>
     </section>
 
         <div class="offer">
@@ -192,31 +203,31 @@
         <div class="content__product">
             <div class="product__box">
                 <div class="product__img"> <img src="./img/Rectangle 3.png" alt="">  </div>
-                <p class="product__titl-one">Саломон сет</p>
+                <p class="product__titl">Саломон сет</p>
                 <p class="product__description">1050 грамм, 30 кусочков</p>
                 <div class="product__wrap">                
-                     <span class="product__price">1500 СОМ</span>
-                    <button class="product__btn">Хочу!</button>
-                </div>
+                <span class="product__price">1500 СОМ</span>
+                <button class="product__btn">Хочу!</button>
+            </div>
             </div>          
        
         
             <div class="product__box">
                 <div class="product__img"> <img src="./img/product2.png" alt="">  </div>
-                <p class="product__titl">Филадельфия и <br> лосось сет</p>
-                <p class="product__description">1260 грамм, 36 кусочков</p>
+                <p class="product__titl">Саломон сет</p>
+                <p class="product__description">1050 грамм, 30 кусочков</p>
                 <div class="product__wrap">                
-                <span class="product__price">1150 СОМ</span>
+                <span class="product__price">1500 СОМ</span>
                 <button class="product__btn">Хочу!</button>
             </div>
             </div>          
        
             <div class="product__box">
                 <div class="product__img"> <img src="./img/Product3.png" alt=""></div>
-                <p class="product__titl">Самая большая Филадельфия</p>
-                <p class="product__description">2050 грамм, 45 кусочков</p>
+                <p class="product__titl">Саломон сет</p>
+                <p class="product__description">1050 грамм, 30 кусочков</p>
                 <div class="product__wrap">                
-                <span class="product__price">2100 СОМ</span>
+                <span class="product__price">1500 СОМ</span>
                 <button class="product__btn">Хочу!</button>
             </div>
             </div>          
@@ -250,7 +261,6 @@
          </div>
     </div>
     </div>
-    <!--end-main ----------------------------------->
 
     <!-- right-bar ------------------------------------>
     <div class="right-bar">            
@@ -268,7 +278,6 @@
             <p class="map-text">И узнайте время доставки</p>
         </div>    
     </div> 
-    <!--end-right-bar ------------------------------------>
 
     </div>
 

@@ -1,0 +1,113 @@
+@import url("../fonts/dinpro/stylesheet.css");
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    margin-top: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vw;
+    height: 25vh;
+}
+
+.footer_wrapper {
+    display: flex;
+    border-top: 0.5vh solid rgba(164, 172, 173, 1);
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    width: 90%;
+    height: 100%;
+    font-family: 'DIN Pro';
+    font-size: large;
+}
+
+.footer_wrapper div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+.footer_wrapper_documents_content{
+    margin-bottom:8% ;
+}
+
+.footer_wrapper_documents_content:hover {
+    cursor: pointer;
+}
+
+.footer_wrapper_line{
+    border-left: solid rgba(164, 172, 173, 1) ;
+    height:100% ;
+}
+
+
+.footer_wrapper_socialWebs_header {
+    color: black;
+    margin-bottom:3%;
+}
+
+.footer_wrapper_socialWebs_form_prefics {
+    font-style: inherit;
+    font-size: large;
+    color: rgba(164, 172, 173, 1);
+}
+
+.footer_wrapper_socialWebs_form_input {
+    border: none;
+    font-style: inherit;
+    font-size: larger;
+    color: rgba(164, 172, 173, 1);
+}
+
+.footer_wrapper_socialWebs_form_input:focus-visible {
+    outline: none;
+}
+
+.footer_wrapper_socialWebs_text {
+    color: rgba(164, 172, 173, 1);
+    margin-top: 3% ;
+    margin-bottom: 3% ;
+}
+
+.footer_wrapper_socialWebs_logos {
+    flex-direction: row !important;
+    justify-content: space-evenly !important;
+}
+
+
+.footer_wrapper_socialWebs button {
+    box-sizing: border-box;
+    width: 18%;
+    height: 3.2rem;
+    border: none;
+    background-color: rgba(0, 0, 0, 0)
+}
+
+.footer_wrapper_socialWebs button svg:hover {
+    cursor: pointer;
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+.footer_wrapper_socialWebs_btn_watsapp svg:hover #watsapp,
+.footer_wrapper_socialWebs_btn_telegram svg:hover #telegram,
+.footer_wrapper_socialWebs_btn_instagram svg:hover #instagram {
+    fill: none;
+}
+
+.footer_wrapper_contacts {
+    color:rgba(164, 172, 173, 1) ;
+}
+
+.footer_wrapper_contacts_row{
+    margin-bottom:3%;
+}
+
+.footer_wrapper_contacts_row_number{
+    text-decoration:underline ;
+}

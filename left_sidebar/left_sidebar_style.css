@@ -1,0 +1,90 @@
+@import url("../fonts/dinpro/stylesheet.css") ;
+@import url("../fonts/nexa/stylesheet.css") ;
+
+
+/* something new */
+
+*{
+    margin:0 ; 
+    padding:0 ;
+}
+
+.left_sidebar{
+    top:0 ;
+    left:0 ;
+    width: 20vw;
+    /* height: 100vh; */
+    border:2px dotted black ;
+}
+
+.left_sidebar_logo{
+    margin-top:5% ;
+    margin-left:10% ;
+    text-align: center;
+}
+
+.left_sidebar_logo figcaption {
+    font-family: "Nexa" , system-ui;
+    font-size: 2em;
+    text-shadow: 0em 0.1em 0.1em rgba(0, 0, 0, 0.25) ;
+}
+
+.left_sidebar hr{
+    margin-top : 10% ;
+    background-color: rgba(0, 0, 0, 0.25);
+    width: 50% ;
+    /* text-align:center ; */
+    margin-left:30% ;
+}
+
+.left_sidebar_menu{
+    margin-top: 10% ;
+    margin-left:30% ;
+    /* flex-wrap: nowrap; */
+}
+.left_sidebar_menu_list{
+    display:flex !important;
+    flex-direction: column !important;
+    /* flex-wrap: nowrap; */
+}
+
+
+.left_sidebar_menu li{
+    display:flex ;
+    align-items: center;
+    font-family: 'DIN Pro';
+    list-style: none;
+    margin-bottom:15% ;
+}
+
+.left_sidebar_menu_text{
+margin-left:5% ;
+font-size: larger;
+}
+
+.left_sidebar_menu_text:hover{
+    cursor:pointer ;
+    color: rgb(255,152,70) ;
+}
+
+.left_sidebar_menu_soon{
+    margin-left:6rem ;
+    position: absolute;
+    text-align: center;
+    width: 3rem;
+    font-size: x-small;
+    color: rgb(255,255,255) ;
+    background-color: rgb(235,87,87);
+    border-radius: 10% /50%;
+    align-self: flex-start;
+}
+
+.hide{
+    display:none ;
+}
+
+
+
+
+
+
