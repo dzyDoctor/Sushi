@@ -180,6 +180,7 @@ font-size: larger;
     width: 1170px; /*1170px*/
     height: 2295px;
     background: #F2F2F2;
+    position: relative;
    
 }
 
@@ -509,15 +510,18 @@ position: relative;
 
 /* btn__slider======================================= */
 .btn__slider{
-    /* display: flex;
-    justify-content: space-between; */
-    position: absolute;
-    top: 1348px;
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    position: absolute;  
+    top: 1340px;
+    border: 1px solid red;
+    z-index: 100;
 }
 
 .btn__slider-right{
-    left: 1062px;
-    position: absolute;    
+    /* left: 1062px;
+    position: absolute;     */
     
 }
 
@@ -555,8 +559,7 @@ position: relative;
 }
 .presentation__text-bac{
     /* opacity: 0.5;  */
-  
-    
+     
 }
 .presentation__text-bac p:nth-child(1){
     opacity: 0.5;
